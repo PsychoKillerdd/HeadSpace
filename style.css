@@ -1,0 +1,47 @@
+
+*{
+    font-family:Arial;
+}
+.titulos{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    background: steelblue;
+}
+.vicente{
+    text-decoration: underline 2px ;
+    text-decoration-color: ora;
+    text-underline-offset:0.5rem;
+
+}
+nav{
+    text-align: center;
+    background: plum;
+    padding: 0 0 0.5rem 0;
+}
+.lista {
+    width: 100%;
+    display: flex;          
+    justify-content: center; 
+    align-items: center;     
+    flex-wrap: wrap;         
+    padding: 0;             
+    margin: 0;              
+  }
+.lista>li{
+    
+    width: 3rem;
+    height: auto;
+    margin: 0 1rem 1rem 0;
+    padding: 0 0 0 0;
+    border: 2px solid black;
+    text-align: center;
+    object-fit: cover;
+    list-style-type: none;
+    display: inline-block;
+
+}
+.lista > li svg {
+    width: 3rem; 
+    height: 3rem; 
+}
