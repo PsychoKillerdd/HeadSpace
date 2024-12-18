@@ -3,6 +3,10 @@
     box-sizing: border-box;
     font-family:Arial;
 }
+body{
+    background-image: url(/public/cuadros.jpg);
+
+}
 
 .titulos{
     overflow: hidden;
@@ -24,6 +28,7 @@ nav{
     background: plum;
     padding: 0 0 0.5rem 0;
     border: 1px solid black;
+    margin: 0.5rem 0 0 0;
 }
 .lista {
     width: 100%;
@@ -36,10 +41,10 @@ nav{
   }
 .lista>li{
     
-    width: 3rem;
+    width: 4rem;
     height: auto;
     margin: 0 1rem 1rem 0;
-    padding: 0 0 0 0;
+    padding: 3px 0 0 0;
     border: 2px solid black;
     text-align: center;
     object-fit: cover;
@@ -50,4 +55,31 @@ nav{
 .lista > li svg {
     width: 3rem; 
     height: 3rem; 
+}
+.me{
+    display: block;
+    text-align: center;
+    width: 49%;
+    height: auto;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0.5rem 0 0 0;
+    aspect-ratio: 16/9;
+    background: lawngreen;
+}
+.articulo{
+    text-align: center;
+    display:block;
+    width: 49%;
+    border: 1px solid black;
+    margin: 0.5rem 0 0 0;
+    aspect-ratio: 16/9;
+    padding: 0;
+    background: lightcoral;
+
+}
+.agrupador{
+    display: flex;
+    justify-content: space-between;
+
 }
